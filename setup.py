@@ -1,4 +1,3 @@
-import soynlp
 import setuptools
 from setuptools import setup, find_packages
 
@@ -8,9 +7,9 @@ with open('README.md', encoding='utf-8') as fh:
 
 setuptools.setup(
     name="soynlp",
-    version=soynlp.__version__,
-    author=soynlp.__author__,
-    author_email='soy.lovit@gmail.com',
+    version='1.0',
+    author='MisileLab',
+    author_email='misile@duck.com',
     description="Unsupervised Korean Natural Language Processing Toolkits",
     long_description=long_description,
     long_description_content_type="text/markdown",
